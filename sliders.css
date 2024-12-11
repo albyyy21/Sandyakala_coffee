@@ -1,3 +1,7 @@
+.sliders {
+    overflow-x: hidden;
+}
+
 .slides {
     display: flex;
     width: 550%;
