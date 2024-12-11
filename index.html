@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="icons/favicon-32x32.png">
+    <link rel="stylesheet" href="sliders.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="keranjang.css">
+    <script src="keranjang.js"></script>
+    <script src="slideoto.js"></script>
+    <title>SANDYAKALA</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-contents">
+                <img src="Logo/sandyakala-high-resolution-logo-white.png" alt="">
+        </div>
+        <h1>Welcome to Sandyakala Coffee</h1>
+    </header>
+    <div class="sliders">
+        <div class="slides">
+            <img src="sliders_assets/slider_1.jpg" alt="Gambar 1">
+            <img src="sliders_assets/slider_2.jpg" alt="Gambar 2">
+            <img src="sliders_assets/slider_1.jpg" alt="Gambar 3">
+            <img src="sliders_assets/slider_2.jpg" alt="Gambar 4">
+            <img src="sliders_assets/slider_1.jpg" alt="Gambar 5">
+        </div>
+    </div>
+    <div class="container" id="menu">
+        <h2>Menu Kopi</h2>
+        <div class="menu">
+            <div class="menu-item">
+                <a href=""><img src="https://indopop.id/wp-content/uploads/2024/10/butterscotch-coffee-1536x1152.webp"
+                        alt="Espresso"></a>
+                <h3>Butter Scotch</h3>
+                <p>Kalo Minum kopinya jangan lupa lihat aku yaa</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://indopop.id/wp-content/uploads/2024/10/butterscotch-coffee-1536x1152.webp"
+                    alt="Cappuccino">
+                <h3>Carammel</h3>
+                <p>Kalo Minum kopinya jangan lupa lihat aku yaa</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://indopop.id/wp-content/uploads/2024/10/butterscotch-coffee-1536x1152.webp" alt="Latte">
+                <h3>Gula Aren</h3>
+                <p>Kalo Minum kopinya jangan lupa lihat aku yaa</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://indopop.id/wp-content/uploads/2024/10/butterscotch-coffee-1536x1152.webp" alt="Mocha">
+                <h3>Kopi + Susu</h3>
+                <p>Kalo Minum kopinya jangan lupa lihat aku yaa</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <div class="container-belanja">
+        <div class="header-belanja">
+            <h1>Yuk Belanja</h1>
+        </div>
+
+        <div class="belanja">
+            <h2>Menu</h2>
+            <div class="menu-belanja">
+                <span>Butter scotch</span>
+                <button onclick="addToCart('Butter scotch', 10000)">Tambah (Rp 10.000)</button>
+            </div>
+            <div class="menu-belanja">
+                <span>Carammel</span>
+                <button onclick="addToCart('Carammel', 10000)">Tambah (Rp 10.000)</button>
+            </div>
+            <div class="menu-belanja">
+                <span>Gula Aren</span>
+                <button onclick="addToCart('Gula Aren', 8000)">Tambah (Rp 8.000)</button>
+            </div>
+            <div class="menu-belanja">
+                <span>Kopi + Susu</span>
+                <button onclick="addToCart('Kopi + Susu', 8000)">Tambah (Rp 8.000)</button>
+            </div>
+        </div>
+        <div class="cart">
+            <h2>Keranjang Belanja</h2>
+            <div id="cart-items"></div>
+            <div class="total">Total: Rp <span id="total-price">0</span></div>
+        </div>
+        <div class="checkout">
+            <button onclick="checkout()">Checkout</button>
+        </div>
+    </div>        
+</body>
+
+
+<div class="content">
+</div>
+<footer>
+    <div class="footer-links">
+        <div class="icon-email">
+            <img src="icons/gmail.png" alt="">
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvlqcWxFRBsJtwMfSgHfkzWbLGQBLVMmKKKBQzsSPzSFptkMSTlhwJHQRCKHzHPCqJwxhL">allenalbi210503@gmail.com</a>
+        </div>
+        <div class="icon-instagram">
+            <img src="icons/instagram.png" alt="">
+            <a href="https://www.instagram.com/sandyakalacafe/?hl=id">@Sandyakalacafe</a>
+        </div>
+    </div>
+    <div class="footer-copy">
+        &copy; 2024 Your Company. All rights reserved.
+    </div>
+</footer>
+</body>
+
+</html>
